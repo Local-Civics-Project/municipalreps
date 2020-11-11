@@ -1,0 +1,5 @@
+PGUSER=lcpdbmaster
+PGHOST=ls-8cb6e4c9d9ec4663e328a2b296658e7811cfe4ff.cyblcie3t3gi.ap-south-1.rds.amazonaws.com
+PGPASSWORD=lcpdbmasterpass123!
+PGDATABASE=municipalreps
+PGPORT=5432
