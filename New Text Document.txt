@@ -1,0 +1,8 @@
+1. remove background pic 
+2. sql query from mun rep
+3. host on aws 
+-- hide credentials -- 
+
+4. get domain
+5. add more UI and data(columns focus)
+6. Parallel Marketing (social media)

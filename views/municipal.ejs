@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Municipal Ward</title>
+    </head>
+    <body>
+        <% if(Object.keys(data).length){ %>
+        <% Object.keys(data).forEach(function(key){ %>
+            <h3>
+                <%=key%> : <%=data[key]%>
+            </h3>
+        <%})%>
+         <%} else {%>
+            <h3>No Data</h3>
+         <%}%>
+        
+    </body>
+</html>
