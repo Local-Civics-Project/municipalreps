@@ -5,19 +5,17 @@ const getlatLangBtn = document.getElementById("getlatLangBtn");
 const latField = document.getElementById("lat");
 const langField = document.getElementById("lang");
 
-let timer;
-
-
-
-
-
-searchField.addEventListener('input',function({target}){
-    if(timer || !target.value) clearTimeout(timer);
+//let timer;
+//searchField.addEventListener('input',function({target}){
+//   if(timer || !target.value) clearTimeout(timer);
     
-        timer = setTimeout(function(){
-            zipCodeForm.submit();
-        },1000);
-    
+//        timer = setTimeout(function(){
+//            zipCodeForm.submit();
+//        },1000);
+//});
+
+document.getElementById("searchq").addEventListener("click",function(){
+    zipCodeForm.submit();
 });
 
 getlatLangBtn.addEventListener('click',async function(e){
@@ -32,7 +30,6 @@ getlatLangBtn.addEventListener('click',async function(e){
             langField.value = longitude;
             latField.value = latitude;
             getlatLangForm.submit();
-            
         }
         catch{
             alert("Try Again...");
